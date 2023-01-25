@@ -1,0 +1,12 @@
+{
+    "buildId": "27201228",
+    "correlationId": "2eed1f99-c42f-4830-6110-0abf1efcaf30",
+    "eventType": "codequality",
+    "jobName": "sonar-scan",
+    "customMap": {
+        "taskId": "AYUbaB75LYXDYpPFbHl5",
+        "sonarUrl": "http://sonarqube.query.consul:9000/"
+    },
+    "pipelineId": "57fa7b95-1475-4dbf-758a-a4d532843614",
+    "status": "succeeded"
+}
