@@ -48,12 +48,12 @@
 				],
 				"tasks": [
 					{
-						"name": "yoga-exp",
+						"name": "sample-tekton",
 						"steps": [
 							{
 								"name": "Get Dependencies",
 								"definition": "Get Dependencies",
-								"command": "go get -t -d ./...",
+								"command": "go get -t -d ./...\n",
 								"properties": null
 							},
 							{
