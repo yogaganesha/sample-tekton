@@ -59,13 +59,13 @@
 							{
 								"name": "Unit Tests",
 								"definition": "Unit Tests",
-								"command": "set -o pipefail\nginkgo -cover -r --skip-package=pb,test,mock,proto,testdata | tee ginkgo.output",
+								"command": "set -o pipefail\necho \"GOPATH: ${GOPATH}\"\nginkgo -cover -r --skip-package=pb,test,mock,proto,testdata | tee ginkgo.output",
 								"properties": null
 							},
 							{
 								"name": "Convert coverage",
 								"definition": "Convert coverage",
-								"command": "[ -f ginkgo.output ] \u0026\u0026 cat ginkgo.output 2\u003e\u00261 | go-junit-report \u003e test.xml\n[ -f coverprofile.out ] \u0026\u0026 gocov convert coverprofile.out | gocov-xml \u003e coverage.xml",
+								"command": "echo \"GOPATH: ${GOPATH}\"\n[ -f ginkgo.output ] \u0026\u0026 cat ginkgo.output 2\u003e\u00261 | go-junit-report \u003e test.xml\n\necho \"test.xml contents\"\ncat test.xml\n\n[ -f coverprofile.out ] \u0026\u0026 gocov convert coverprofile.out | gocov-xml \u003e coverage.xml",
 								"properties": null
 							},
 							{
