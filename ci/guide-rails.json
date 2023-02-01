@@ -65,7 +65,7 @@
 							{
 								"name": "Convert coverage",
 								"definition": "Convert coverage",
-								"command": "echo \"GOPATH: ${GOPATH}\"\n[ -f ginkgo.output ] \u0026\u0026 cat ginkgo.output 2\u003e\u00261 | go-junit-report \u003e test.xml\n\necho \"test.xml contents\"\ncat test.xml\n\n[ -f coverprofile.out ] \u0026\u0026 gocov convert coverprofile.out | gocov-xml \u003e coverage.xml",
+								"command": "echo \"GOPATH: ${GOPATH}\"\nls -ltr\n[ -f ginkgo.output ] \u0026\u0026 cat ginkgo.output 2\u003e\u00261 | go-junit-report \u003e test.xml\n\necho \"test.xml contents\"\ncat test.xml\n\necho \"ginkgo.output contents\"\ncat ginkgo.output\n\n[ -f coverprofile.out ] \u0026\u0026 gocov convert coverprofile.out | gocov-xml \u003e coverage.xml",
 								"properties": null
 							},
 							{
