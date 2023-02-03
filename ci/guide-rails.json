@@ -53,7 +53,7 @@
 							{
 								"name": "Get Dependencies",
 								"definition": "Get Dependencies",
-								"command": "go get -t -d ./...\n\"echo run 36\"\n",
+								"command": "go get -t -d ./...\n\"echo run 37\"\n",
 								"properties": null
 							},
 							{
