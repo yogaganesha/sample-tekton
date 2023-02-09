@@ -103,11 +103,6 @@
 				"description": "set go module to auto",
 				"when": "0001-01-01T00:00:00Z",
 				"type": "string"
-			},
-			{
-				"name": "gr.sonarscanner.after_build",
-				"value": "true",
-				"type": "boolean"
 			}
 		],
 		"deployment_files": [
