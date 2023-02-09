@@ -108,11 +108,6 @@
 				"name": "gr.sonarscanner.after_build",
 				"value": "true",
 				"type": "boolean"
-			},
-			{
-				"name": "ILOVETEKTON",
-				"value": "false",
-				"type": "boolean"
 			}
 		],
 		"deployment_files": [
