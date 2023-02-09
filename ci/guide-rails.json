@@ -53,7 +53,7 @@
 							{
 								"name": "Get Dependencies",
 								"definition": "Get Dependencies",
-								"command": "go get -t -d ./...\necho \"run on concourse\"",
+								"command": "go get -t -d ./...\necho \"run on tekton\"",
 								"properties": null
 							},
 							{
