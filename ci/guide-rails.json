@@ -53,7 +53,7 @@
 							{
 								"name": "Get Dependencies",
 								"definition": "Get Dependencies",
-								"command": "go get -t -d ./...\necho \"Demo run on Tekton 2\"\n",
+								"command": "go get -t -d ./...",
 								"properties": null
 							},
 							{
@@ -78,6 +78,18 @@
 								"name": "Build Instrumented",
 								"definition": "Build Instrumented",
 								"command": "go test -c -coverpkg=all -covermode=count -o ((application.name))-instrumented\n",
+								"properties": null
+							}
+						],
+						"docker_options": {}
+					},
+					{
+						"name": "echo",
+						"steps": [
+							{
+								"name": "echo",
+								"definition": "echo",
+								"command": "echo \"parallel task\"",
 								"properties": null
 							}
 						],
