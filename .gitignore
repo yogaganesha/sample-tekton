@@ -3,4 +3,5 @@
 *.coverprofile
 .dcignore
 main
+.DS_Store
 
