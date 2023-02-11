@@ -89,7 +89,7 @@
 							{
 								"name": "echo",
 								"definition": "echo",
-								"command": "echo \"parallel task\"",
+								"command": "echo \"parallel task\"\n",
 								"properties": null
 							}
 						],
