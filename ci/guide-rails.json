@@ -53,7 +53,7 @@
 							{
 								"name": "Get Dependencies",
 								"definition": "Get Dependencies",
-								"command": "go get -t -d ./...\necho \"Demo run on Tekton 4\"",
+								"command": "go get -t -d ./...",
 								"properties": null
 							},
 							{
